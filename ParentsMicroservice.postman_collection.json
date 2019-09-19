@@ -1,0 +1,151 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ParentsMicroservice",
+		"_postman_id": "ebb25c7b-83e6-71c6-f1cb-de58886d5f48",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8083/Parents/v1.0/",
+			"request": {
+				"url": "http://localhost:8083/Parents/v1.0/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"fullName\": \"richard\",\n        \"gender\": \"m\",\n        \"dateofBirth\":\"2019-09-19\",\n        \"typeDocument\": \"dni\",\n        \"documentNumber\": \"47704995\"\n    \n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/Parents/v1.0/",
+			"request": {
+				"url": "http://localhost:8083/Parents/v1.0/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"fullName\": \"beltran\",\n        \"gender\": \"Male\",\n        \"dateofBirth\": \"1960-03-22\",\n        \"typeDocument\": \"DNI\",\n        \"documentNumber\": \"10101014\",\n        \"idStudent\": \"1\",\n        \"idFamily\": \"Romero\"\n    \n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/Parents/v1.0/5d83fc800d6525333249010a",
+			"request": {
+				"url": "http://localhost:8083/Parents/v1.0/5d83fc800d6525333249010a",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n       \"fullName\": \"Juanjose\",\n        \"gender\": \"Male\",\n        \"dateofBirth\": \"1980-03-22\",\n        \"typeDocument\": \"DNI\",\n        \"documentNumber\": \"14256879\",\n        \"idStudent\": \"2\",\n        \"idFamily\": \"Quispe\"\n    \n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/Parents/v1.0/5d8404d005e99641e0e01e2d",
+			"request": {
+				"url": "http://localhost:8083/Parents/v1.0/5d8404d005e99641e0e01e2d",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n       \"fullName\": \"Juanjose\",\n        \"gender\": \"Male\",\n        \"dateofBirth\": \"1980-03-22\",\n        \"typeDocument\": \"DNI\",\n        \"documentNumber\": \"14256879\",\n        \"idStudent\": \"2\",\n        \"idFamily\": \"Quispe\"\n    \n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/Parents/v1.0/names/Ines",
+			"request": {
+				"url": "http://localhost:8083/Parents/v1.0/names/Ines",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n       \"fullName\": \"Juanjose\",\n        \"gender\": \"Male\",\n        \"dateofBirth\": \"1980-03-22\",\n        \"typeDocument\": \"DNI\",\n        \"documentNumber\": \"14256879\",\n        \"idStudent\": \"2\",\n        \"idFamily\": \"Quispe\"\n    \n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/Parents/v1.0/documents/15555555",
+			"request": {
+				"url": "http://localhost:8083/Parents/v1.0/documents/15555555",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n       \"fullName\": \"Juanjose\",\n        \"gender\": \"Male\",\n        \"dateofBirth\": \"1980-03-22\",\n        \"typeDocument\": \"DNI\",\n        \"documentNumber\": \"14256879\",\n        \"idStudent\": \"2\",\n        \"idFamily\": \"Quispe\"\n    \n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/Parents/v1.0/dates/1950-03-22/1970-03-22",
+			"request": {
+				"url": "http://localhost:8083/Parents/v1.0/dates/1950-03-22/1970-03-22",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n       \"fullName\": \"Juanjose\",\n        \"gender\": \"Male\",\n        \"dateofBirth\": \"1980-03-22\",\n        \"typeDocument\": \"DNI\",\n        \"documentNumber\": \"14256879\",\n        \"idStudent\": \"2\",\n        \"idFamily\": \"Quispe\"\n    \n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
